@@ -166,7 +166,7 @@ Dit heb ik gedaan door de cookies uit te zetten in de instellingen. Er zijn geen
 
 Wij deden nog niets met local storage, dus het uitzetten ervan zal niet voor problemen zorgen op de site.
 
-#### Edge: 
+#### Opera: 
 
 - Afbeeldingen uitzetten:
 
@@ -190,10 +190,6 @@ Wij deden nog niets met local storage, dus het uitzetten ervan zal niet voor pro
 #### Iphone
 
 #### Ipad
-
-
-
-
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
