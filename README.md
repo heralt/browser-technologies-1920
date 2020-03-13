@@ -155,8 +155,14 @@ Gebruik maken van de tab en pijlenknoppen is in deze browser ook niet heel effic
 
 Ik heb dit getest door in de devtool in de netwerk tab, de internet snelheid op regular 2G te zetten. Het laden van nieuwe fetches duurde het langst. Het laden van de detail pagina ging relatief snel. Het gebruiken van de site werd verder niet onmogelijk. 
 - javascript uitzetten:
+
+Nadat ik javascript.enabled of false had gezet, werkte onze javascript helemaal niet meer, dus kreeg ik geen boeken te zien op de pagina. Dit is het zelde als in de Chrome browser. 
 - cookies uitzetten: 
+
+Dit heb ik gedaan door de cookies uit te zetten in de instellingen. Er zijn geen problemen met het gebruiken van de site, alles werkt naar behoren.
 - local storage doet 't niet:
+
+Wij deden nog niets met local storage, dus het uitzetten ervan zal niet voor problemen zorgen op de site.
 
 #### Edge: 
 
@@ -172,6 +178,8 @@ Ik heb dit getest door in de devtool in de netwerk tab, de internet snelheid op 
 - breedband internet uitzetten: 
 
 - javascript uitzetten:
+
+
 - cookies uitzetten: 
 - local storage doet 't niet:
 
