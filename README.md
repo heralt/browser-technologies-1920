@@ -107,9 +107,19 @@ Verder werken aan opdracht 2
 #### Vrijdag
 Code review en beoordelingsgesprekken opdracht 2.
 
+#### opdracht 1.2
 
+Chrome: 
+- Afbeeldingen uitzetten:
 
-
+In de instellingen van chrome heb ik de afbeeldingen uitgezet, om het niet kunnen laden van afbeeldingen te simuleren. Hierdoor kreeg je de kaften van het boek niet meer te zien. Maar omdat we de titel van het boek uit de API en onder de kaft ook lieten zien, was het nog mogelijk om een boek te vinden. Als de gebruiker zocht naar een specifieke titel, dan is de site nog te gebruiken.
+- custom fonts uitzetten:
+- kleur / kleurenblindheid
+- muis / trackpad werkt niet: 
+- breedband internet uitzetten: 
+- javascript uitzetten:
+- cookies uitzetten: 
+- local storage doet 't niet:
 
 
 
