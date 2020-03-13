@@ -107,9 +107,9 @@ Verder werken aan opdracht 2
 #### Vrijdag
 Code review en beoordelingsgesprekken opdracht 2.
 
-#### opdracht 1.2
+### opdracht 1.2
 
-Chrome: 
+#### Chrome: 
 - Afbeeldingen uitzetten:
 
 In de instellingen van chrome heb ik de afbeeldingen uitgezet, om het niet kunnen laden van afbeeldingen te simuleren. Hierdoor kreeg je de kaften van het boek niet meer te zien. Maar omdat we de titel van het boek uit de API en onder de kaft ook lieten zien, was het nog mogelijk om een boek te vinden. Als de gebruiker zocht naar een specifieke titel, dan is de site nog te gebruiken.
@@ -135,8 +135,9 @@ Het uitzetten van javascript deed ik in de instellingen van de browser. ALs ik d
 Bij het uitzetten van de cookies in mijn instellingen, gebeurde er niks geks. de site werkte naar behoren. 
 - local storage doet 't niet: 
 
+Op deze [site](https://mid.as/kb/00103/enable-disable-or-clear-web-storage-cache), wordt uitgelegd hoe ik mijn webstorage uit kon zetten. Na dit gedaan te hebben, werkt de site nog perfect. Het gebruiken van de site werd niet geblokeerd, net als bij andere sites. 
 
-Firefox:
+#### Firefox:
 
 - Afbeeldingen uitzetten:
 
@@ -153,7 +154,7 @@ Firefox:
 - cookies uitzetten: 
 - local storage doet 't niet:
 
-Edge: 
+#### Edge: 
 
 - Afbeeldingen uitzetten:
 
