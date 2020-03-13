@@ -162,28 +162,30 @@ Nadat ik javascript.enabled of false had gezet, werkte onze javascript helemaal 
 - cookies uitzetten: 
 
 Dit heb ik gedaan door de cookies uit te zetten in de instellingen. Er zijn geen problemen met het gebruiken van de site, alles werkt naar behoren.
-- local storage doet 't niet:
-
-Wij deden nog niets met local storage, dus het uitzetten ervan zal niet voor problemen zorgen op de site.
 
 #### Opera: 
 
 - Afbeeldingen uitzetten:
 
+Dit is het zelfde net als in de vorige twee browsers. De site is goed te gebruiken, maar er zijn geen kaften meer te zien. 
 - custom fonts uitzetten:
 
 
 - kleur / kleurenblindheid:
 
+Ik heb een extension gebruikt om dit te testen, net als in de Chrome en firefox browser en de resultaten zijn het zelfde. 
 - muis / trackpad werkt niet: 
 
+De resultaten van de het testen van dit zijn het zelfde als de voorgaande browsers. Het werkt maar het is geen fijne manier van de site gebruiken.
 - breedband internet uitzetten: 
 
+Net als bij de vorige browsers, als iemand een slechte verbinding heeft(2 of 3G) werkt de site nog snel genoeg. Het bezoeken van de site wordt niet vervelend.
 - javascript uitzetten:
 
-
+Net als bij de vorige browsers kan er nu niet meer naar boeken gezogd worden. 
 - cookies uitzetten: 
-- local storage doet 't niet:
+
+Net als bij de vorige browsers zorgt dit niet voor problemen.
 
 ### Devices
 
