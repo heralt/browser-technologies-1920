@@ -135,21 +135,25 @@ Het uitzetten van javascript deed ik in de instellingen van de browser. ALs ik d
 Bij het uitzetten van de cookies in mijn instellingen, gebeurde er niks geks. de site werkte naar behoren. 
 - local storage doet 't niet: 
 
-Op deze [site](https://mid.as/kb/00103/enable-disable-or-clear-web-storage-cache), wordt uitgelegd hoe ik mijn webstorage uit kon zetten. Na dit gedaan te hebben, werkt de site nog als normaal. Het gebruiken van de site werd niet geblokeerd, net als bij andere sites. 
+Op deze [site](https://mid.as/kb/00103/enable-disable-or-clear-web-storage-cache), wordt uitgelegd hoe ik mijn webstorage uit kon zetten. Na dit gedaan te hebben, werkt de site nog als normaal. Het gebruiken van de site werd niet geblokeerd, net als bij andere sites. Verder hebben we in onze site ook geen gebruik gemaakt van local storage, dus dat er niks gebeurt is logisch.
 
 #### Firefox:
 
 - Afbeeldingen uitzetten:
 
+In firefox heb ik dit aangepast door permissions.default.iamge op 2 te zetten. Het resultaat is het zelfde als wat er in Chrome gebeurt. De site werkt normaal, alleen je ziet de kaften van de boeken niet. Maar omdat we de titel onderaan de kaften ook laten zien, is dit geen probleem. 
 - custom fonts uitzetten:
 
-
+Het uitzetten van custom-fonts, deed ik door gfx.downloadable_fonts.enabled op false te zetten. Er veranderde niks op onze site, alles ziet eruit als hoe wij het designed hadden.
 - kleur / kleurenblindheid:
 
+Net als bij chrome heb ik hiervoor een extension gedownload, om kleurenblindheid te simuleren. Net als bij chrome is de site goed te gebruiken, behalve dat de kaften af en toe lastig te lezen zijn. 
 - muis / trackpad werkt niet: 
 
+Gebruik maken van de tab en pijlenknoppen is in deze browser ook niet heel efficient, maar het werkt wel. Ik zou kunnen toevoegen om te navigeren met alleen de pijlen knoppen. 
 - breedband internet uitzetten: 
 
+Ik heb dit getest door in de devtool in de netwerk tab, de internet snelheid op regular 2G te zetten. Het laden van nieuwe fetches duurde het langst. Het laden van de detail pagina ging relatief snel. Het gebruiken van de site werd verder niet onmogelijk. 
 - javascript uitzetten:
 - cookies uitzetten: 
 - local storage doet 't niet:
