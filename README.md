@@ -185,7 +185,11 @@ Wij deden nog niets met local storage, dus het uitzetten ervan zal niet voor pro
 - cookies uitzetten: 
 - local storage doet 't niet:
 
+### Devices
 
+#### Iphone
+
+#### Ipad
 
 
 
