@@ -193,6 +193,8 @@ Net als bij de vorige browsers zorgt dit niet voor problemen.
 
 #### Ipad
 
+#### Android tablet
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
