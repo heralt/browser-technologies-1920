@@ -114,17 +114,61 @@ Chrome:
 
 In de instellingen van chrome heb ik de afbeeldingen uitgezet, om het niet kunnen laden van afbeeldingen te simuleren. Hierdoor kreeg je de kaften van het boek niet meer te zien. Maar omdat we de titel van het boek uit de API en onder de kaft ook lieten zien, was het nog mogelijk om een boek te vinden. Als de gebruiker zocht naar een specifieke titel, dan is de site nog te gebruiken.
 - custom fonts uitzetten:
-- kleur / kleurenblindheid
+
+
+- kleur / kleurenblindheid:
+
+Om dit te simuleren heb ik een extension gedownload die in de browser laat zien wat verschillende soorten kleuren blinde mensen zien als ze naar de site kijken. 
+De site is goed te gebruiken. De zoek knoppen en balk zijn heel duidelijk en de titel van de boeken onder de kaft is ook goed te lezen. Wat minder goed te lezen is, zijn de kaften van de boeken. De kleuren die op de kaften worden gebruikt, maken de titel soms onleesbaar. 
 - muis / trackpad werkt niet: 
+
+Voor deze test heb ik gebruik gemaakt van de tab en de pijlen knoppen. Het gebruiken van de site was mogelijk, maar heel erg vervelend. Als je naar een boek zocht, moet je een voor een langs alle boeken tabben voordat je op het boek dat je wilt enter kan drukken. 
 - breedband internet uitzetten: 
+
+Voor deze test heb ik in de devtools in de netwerk tab, de preset op slow 3g gezet. De site hierdoor langzamer, maar het gebruiken werd niet vervelend. De knoppen werden meteen geladen en de afbeeldingen van de kaften werden wat later langzaam ook gerendered. Wat meest vervelend was, was naar de detailpagina van een boek gaan. Als er op een boek geklikt werd, leek het alsof er niks gebeurde terwijl de pagina geladen werd. Het zou duidelijker zijn, als er een indicatie was dat de browser iets aan het doen is.
+
+- javascript uitzetten:
+
+Het uitzetten van javascript deed ik in de instellingen van de browser. ALs ik dit deed, kreeg ik geen boeken meer uit de API. De knoppen werkten ook niet meer en de zoekbalk ook niet. 
+- cookies uitzetten: 
+
+Bij het uitzetten van de cookies in mijn instellingen, gebeurde er niks geks. de site werkte naar behoren. 
+- local storage doet 't niet: 
+
+
+Firefox:
+
+- Afbeeldingen uitzetten:
+
+- custom fonts uitzetten:
+
+
+- kleur / kleurenblindheid:
+
+- muis / trackpad werkt niet: 
+
+- breedband internet uitzetten: 
+
 - javascript uitzetten:
 - cookies uitzetten: 
 - local storage doet 't niet:
 
+Edge: 
+
+- Afbeeldingen uitzetten:
+
+- custom fonts uitzetten:
 
 
+- kleur / kleurenblindheid:
 
+- muis / trackpad werkt niet: 
 
+- breedband internet uitzetten: 
+
+- javascript uitzetten:
+- cookies uitzetten: 
+- local storage doet 't niet:
 
 
 
