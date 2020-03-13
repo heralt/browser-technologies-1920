@@ -135,7 +135,7 @@ Het uitzetten van javascript deed ik in de instellingen van de browser. ALs ik d
 Bij het uitzetten van de cookies in mijn instellingen, gebeurde er niks geks. de site werkte naar behoren. 
 - local storage doet 't niet: 
 
-Op deze [site](https://mid.as/kb/00103/enable-disable-or-clear-web-storage-cache), wordt uitgelegd hoe ik mijn webstorage uit kon zetten. Na dit gedaan te hebben, werkt de site nog perfect. Het gebruiken van de site werd niet geblokeerd, net als bij andere sites. 
+Op deze [site](https://mid.as/kb/00103/enable-disable-or-clear-web-storage-cache), wordt uitgelegd hoe ik mijn webstorage uit kon zetten. Na dit gedaan te hebben, werkt de site nog als normaal. Het gebruiken van de site werd niet geblokeerd, net als bij andere sites. 
 
 #### Firefox:
 
