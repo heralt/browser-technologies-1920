@@ -195,6 +195,9 @@ Net als bij de vorige browsers zorgt dit niet voor problemen.
 
 #### Android tablet
 
+### Screen reader test 
+
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
