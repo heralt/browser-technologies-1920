@@ -109,6 +109,8 @@ Code review en beoordelingsgesprekken opdracht 2.
 
 ### opdracht 1.2
 
+Link to the site: [link](https://heralt.github.io/project-1-1920/)
+
 #### Chrome: 
 - Afbeeldingen uitzetten:
 
