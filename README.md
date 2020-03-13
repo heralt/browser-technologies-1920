@@ -107,7 +107,7 @@ Verder werken aan opdracht 2
 #### Vrijdag
 Code review en beoordelingsgesprekken opdracht 2.
 
-### opdracht 1.2
+## opdracht 1.2
 
 Link to the site: [link](https://heralt.github.io/project-1-1920/)
 
