@@ -235,6 +235,7 @@ data bij. Ben bezig geweest met **filter** en **find**, maar kwam er uit.
 
 - Heroku
 - regex toevoegen voor student nummer check 
+- progress bar toevoegen
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
