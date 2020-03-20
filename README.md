@@ -1,4 +1,4 @@
-# Browser Technologies @cmda-minor-web 1920
+3# Browser Technologies @cmda-minor-web 1920
 //Robuuste, toegankelijke websites ontwerpen en maken …
 
 In het vak Browser Technologies leer je hoe je goede, robuuste, toegankelijke websites maakt. Je gaat leren over Progressive Enhancement, Feature Detection en Fallback. Het web is er voor iedereen. In dit vak leer je hoe je daarvoor kan zorgen.
@@ -109,6 +109,8 @@ Code review en beoordelingsgesprekken opdracht 2.
 
 ## opdracht 1.2
 
+![Image of wireframe](images/image.png)
+
 Link to the site: [link](https://heralt.github.io/project-1-1920/)
 
 #### Chrome: 
@@ -196,6 +198,43 @@ Net als bij de vorige browsers zorgt dit niet voor problemen.
 #### Android tablet
 
 ### Screen reader test 
+
+## opdracht 2
+
+Voor opdracht 2 heb ik gekozen voor het schrijven voor de enquete use case. Met mijn enquete probeer ik je na te laten
+denken over bepaalde keuzes die je gemaakt hebt.
+
+### Wireframe 
+
+![Image of wireframe](images/Afbeelding1.png)
+
+### Opbouw code 
+De opbouw van mijn code bestaat uit node.js code. Hierdoor wil ik verkomen dan mijn js code niet werkt als iemand, 
+for some reason, zijn javascript uitzet. 
+
+Voor het opslaan van mijn code gebruik ik een json file inplaats van een database. Hierin sla ik de antwoorden van de
+persoon in.
+Het is uiteindelijk de bedoeling dat ik zoek in de json of een persoon een vraag al heeft ingevuld, en de velden die al 
+ingevuld zijn bij terug komen, in de form stop. 
+
+Hiervoor zal ik fs voor gaan gebruiken om data naar een file toe te writen of uit de file te lezen. 
+
+### stand van zaken
+- [x] volgende 
+- [ ] vorige (in de maak, werkt niet goed)
+- [x] data opslaan
+- [ ] data in velden stoppen
+### Feedback 
+
+- Welke tips kan krijgen voor het schrijven van een mooi werkende **vorige** knop.
+- Hoe stop ik waarde in een gekozen object. bijv. er is een object waar een naam al in zit, hoe stop ik daar dan meer 
+data bij. Ben bezig geweest met **filter** en **find**, maar kwam er uit.
+- Bonus tip??
+
+### Wishlist
+
+- Heroku
+- regex toevoegen voor student nummer check 
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
