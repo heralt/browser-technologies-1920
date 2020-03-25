@@ -1,2 +1,4 @@
 # Default ignored files
 /workspace.xml
+
+../enquete_app/node_modules
