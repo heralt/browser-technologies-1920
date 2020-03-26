@@ -1,40 +1,16 @@
 {
   "data": [
     {
-      "naam": "heralt",
-      "stdnt_nr": "123"
-    },
-    {
-      "studie": "TI"
-    },
-    {
-      "studie": "TI"
-    },
-    {
-      "studie": "TI"
-    },
-    {
-      "naam": "heralt",
-      "stdnt_nr": "levant"
-    },
-    {
-      "studie": "CMD"
-    },
-    {
-      "naam": "peter",
-      "stdnt_nr": "768"
-    },
-    {
-      "studie": "CMD"
-    },
-    {
-      "naam": "1",
+      "naam": "heralt ",
       "stdnt_nr": "1234"
     },
     {
-      "studie": "CMD"
+      "naam": "heralt ",
+      "stdnt_nr": "1234"
     },
-    {},
-    {}
+    {
+      "naam": "1",
+      "stdnt_nr": "1"
+    }
   ]
 }

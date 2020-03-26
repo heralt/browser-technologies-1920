@@ -10,11 +10,19 @@ app.use(parser.urlencoded({extended:true}));
 app.set('views','views');
 app.set('view engine', 'ejs');
 
+let std_nummer = null;
+
+const zoekNummer = nummer => {
+    return nummer.stdnt_nr = std_nummer;
+}
+
 app.get('/start', (req, res) => {
     res.render('init_page');
+    std_nummer = parseInt(req.body.stdnt_nr);
 });
 
 const data = (req, res) => {
+
     const{naam, stdnt_nr, studie} = req.body;
     const json_file = './data.json';
     fs.readFile(json_file, (err, data) => {
@@ -22,25 +30,23 @@ const data = (req, res) => {
         if(err) return console.log(err);
         const content_json = JSON.parse(data);
 
-        console.log(stdnt_nr + ' std nr');
-
-        //const stdnt = content_json.data.find(returnValue);
-        const form_data = {naam, stdnt_nr, studie}
-        content_json.data.push(form_data);
-        fs.writeFile(json_file, JSON.stringify(content_json, null, 2), err => {
-            if(err) console.log(err);
-            console.log(err);
-        });
-        /*if(stdnt !== null) {
-            console.log(`${stdnt.stdnt_nr} waarde`)
-        } else {
-
-            });*/
-
+            const form_data = {naam, stdnt_nr, studie};
+            content_json.data.push(form_data);
+            fs.writeFile(json_file, JSON.stringify(content_json, null, 2), err => {
+                if(err) console.log(err);
+                console.log(err);
+            });
     });
 }
 
+app.post('/vraag/:id', (req, res) => {
+    console.log('body ', req.body)
+    data(req,res);
+    res.render(`vraag${req.params.id}`);
+});
+
 app.get('/vraag/:id', (req, res) => {
+    console.log('body ', req.body)
     data(req,res);
     res.render(`vraag${req.params.id}`);
 });
