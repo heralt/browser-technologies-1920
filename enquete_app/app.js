@@ -10,43 +10,60 @@ app.use(parser.urlencoded({extended:true}));
 app.set('views','views');
 app.set('view engine', 'ejs');
 
-let std_nummer = null;
+const write_to_file = (file,data) => {
+    fs.writeFile(file, JSON.stringify(data, null, 2), err => {
+        if(err) console.log(err);
+        console.log(err);
+    });
+};
 
-const zoekNummer = nummer => {
-    return nummer.stdnt_nr = std_nummer;
-}
+const read_from_file = () => {
 
-app.get('/start', (req, res) => {
+};
+
+const data = (req, res) => {
+
+    let index = -1;
+    const{naam, stdnt_nr, studie} = req.body;
+
+    console.log(req.key)
+
+    const json_file = './data.json';
+    fs.readFile(json_file, (err, data) => {
+        if(err) return console.log(err);
+        const content_json = JSON.parse(data);
+
+        const student = content_json.data.find( ({stdnt_nr},i) =>
+        {
+            if(stdnt_nr === req.body.stdnt_nr){
+                index = i;
+                return i;
+            }
+        });
+
+        if(student){
+            content_json.data[index-1].random = "random";
+            write_to_file(json_file,content_json);
+        } else {
+            const form_data = {stdnt_nr, naam};
+            content_json.data.push(form_data);
+            write_to_file(json_file,content_json);
+        }
+    });
+
+};
+
+app.get('/', (req, res) => {
     res.render('init_page');
     std_nummer = parseInt(req.body.stdnt_nr);
 });
 
-const data = (req, res) => {
-
-    const{naam, stdnt_nr, studie} = req.body;
-    const json_file = './data.json';
-    fs.readFile(json_file, (err, data) => {
-
-        if(err) return console.log(err);
-        const content_json = JSON.parse(data);
-
-            const form_data = {naam, stdnt_nr, studie};
-            content_json.data.push(form_data);
-            fs.writeFile(json_file, JSON.stringify(content_json, null, 2), err => {
-                if(err) console.log(err);
-                console.log(err);
-            });
-    });
-}
-
 app.post('/vraag/:id', (req, res) => {
-    console.log('body ', req.body)
     data(req,res);
     res.render(`vraag${req.params.id}`);
 });
 
 app.get('/vraag/:id', (req, res) => {
-    console.log('body ', req.body)
     data(req,res);
     res.render(`vraag${req.params.id}`);
 });
