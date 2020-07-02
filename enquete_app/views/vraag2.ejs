@@ -1,10 +1,16 @@
+<%- include('partials/header') %>
 <h1>Vraag 2</h1>
-<form method="post" action="/vraag/3" target="_self">
+<form method="post" action="/vraag3" target="_self">
     <label>Wat wil je later worden?<br>
-        <textarea name="description" id="" cols="30" rows="10" placeholder="vertel...">
-
-        </textarea>
+        <textarea name="goals" id="doel" cols="30" rows="10" placeholder="vertel..."></textarea>
     </label><br><br>
-    <a href="/vraag/1">terug</a>
-    <input type="submit" value="Next">
+    <a href="/vraag1">terug</a>
+    <input type="submit" value="Volgende">
 </form>
+<script>
+    let doel = document.getElementById('doel');
+    <% if(content) { %>
+        doel.value = "<%= content.goals %>";
+    <% } %>
+</script>
+<%- include('partials/footer') %>

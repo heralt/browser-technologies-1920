@@ -1,19 +1,5 @@
 {
   "data": [
-    {
-      "naam": "heralt",
-      "stdnt_nr": "123",
-      "random": "random"
-    },
-    {
-      "naam": "peter",
-      "stdnt_nr": "123"
-    },
-    {
-      "naam": "kjnk",
-      "stdnt_nr": "123",
-      "random": "random"
-    },
-    {}
+
   ]
 }

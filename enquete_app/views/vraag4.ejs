@@ -1,8 +1,18 @@
+<%- include('partials/header') %>
 <h1>Vraag 4</h1>
-<form method="post" action="/vraag/5" target="_self">
-    <label>Hoe heet je?<br>
-        <input type="text" id="name_input" placeholder="Naam: " name="naam">
+<form method="post" action="/vraag5" target="_self">
+    <label>Wat vind je interessanter?<br>
+        <input type="radio" id="designen" name="keuze" value="designen">
+        <label for="keuze">Designen</label><br>
+        <input type="radio" id="programmeren" name="keuze" value="programmeren">
+        <label for="keuze">Programmeren</label><br>
     </label><br><br>
-    <a href="/vraag/3">terug</a>
-    <input type="submit" value="Previous">
+    <a href="/vraag3">terug</a>
+    <input type="submit" value="Volgende">
 </form>
+<script>
+    <% if(content) { %>
+    document.getElementById("<%= content.keuze %>").checked = true;
+    <% } %>
+</script>
+<%- include('partials/footer') %>

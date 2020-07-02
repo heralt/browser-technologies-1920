@@ -1,8 +1,16 @@
+<%- include('partials/header') %>
 <h1>Vraag 3</h1>
-<form method="post" action="/vraag/4" target="_self">
-    <label>Hoe heet je?<br>
-        <input type="text" id="name_input" placeholder="Naam: " name="naam">
+<form method="post" action="/vraag4" target="_self">
+    <label>Hoe blij ben je met de studie je gekozen hebt?<br>
+        <input type="range" name="duur_doel" id="duur_doel" min="1" max="10" step="1" value="1">
     </label><br><br>
-    <a href="/vraag/2">terug</a>
-    <input type="submit" value="Next">
+    <a href="/vraag2">terug</a>
+    <input type="submit" value="Volgende">
 </form>
+<script>
+    let duur = document.getElementById('duur_doel')
+    <% if ( content ) {%>
+        duur.value = <%= content.duur_doel %>
+    <% } %>
+</script>
+<%- include('partials/footer') %>

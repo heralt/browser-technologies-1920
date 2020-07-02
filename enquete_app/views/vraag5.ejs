@@ -1,8 +1,10 @@
+<%- include('partials/header') %>
 <h1>Vraag 5</h1>
-<form method="post" action="/vraag/submit" target="_self">
-    <label>Hoe heet je?<br>
-        <input type="text" id="name_input" placeholder="Naam: " name="naam">
+<form method="post" action="/submit" target="_self">
+    <label>Wat ben je over 5 jaar?<br>
+        <input type="text" id="name_input" placeholder="doel..." name="toekomst">
     </label><br><br>
-    <a href="/vraag/4">terug</a>
-    <input type="submit" value="Next">
+    <a href="/vraag4">terug</a>
+    <input type="submit" value="Klaar">
 </form>
+<%- include('partials/footer') %>
